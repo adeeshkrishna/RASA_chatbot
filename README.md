@@ -41,7 +41,7 @@ pip install -r requirements.txt
 rasa run --enable-api --cors "*" --port 5005
 ```
 
-5. **Run Rasa action Server**:
+5. **Run Rasa Action Server**:
 ```bash
 rasa run actions
 ```
