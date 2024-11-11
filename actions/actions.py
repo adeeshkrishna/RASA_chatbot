@@ -98,7 +98,7 @@ class ActionRecommendMovie(Action):
         # TMDb API endpoint
         url = f"https://api.themoviedb.org/3/discover/movie"
         params = {
-            "api_key": "19694c9b4f9a2e1a229036fd8bc7bdf3",
+            "api_key": "your_api_key",
             "with_genres": genre_id,
             "sort_by": "popularity.desc",
             "language": "en-US",
