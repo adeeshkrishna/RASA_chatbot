@@ -28,6 +28,7 @@ cd RASA_chatbot
 2. **Install Dependencies**:
    * Install Python dependencies:
 ```bash
+pip install --only-binary :all: psycopg2-binary
 pip install -r requirements.txt
 ```
    * Make sure you have Rasa installed.
